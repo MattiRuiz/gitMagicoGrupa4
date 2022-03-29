@@ -1,0 +1,25 @@
+santuccifrancisco@gmail.com
+ps -aux: ver la lista de procesos
+pwd: donde estas parado (print working director)
+ls: lista de carpetas
+ll: lista carpetas con data completa
+top: consumo de cpu, memoria, process id
+sudo su: entrar en modo super usuario
+clear: limpiar pantalla
+mkdir: crea un directorio
+rm -rf <nombre de la carpeta>: borrar el contenido con la carpeta
+cd: entrara un directorio
+vi <nombre del archivo>: crea un archivo
+:wq! : sale del archivo (write and quit!)
+cp <nombre archivo> <nuevo archivo>: copia el archivo
+cat: muestra el archivo, solo usar en local
+apt install -y <nombre de la app>: instalar programas
+vim <nombre del archivo>: crea un archivo txt con vim
+su <nombre  usuario>: salis del superusuario
+packages.ubuntu.com: lista de paquetes
+cp <nombre archivo> <nombre carpeta>: copiar archivo
+mv <nombre archivo> <nombre carpeta>: mover archivo
+head <nombre archivo>: muestra las primeras 10 lineas
+tail <nombre archivo>: muestra las ultimas lineas
+chown <nombre usuario>:<nombre usuario> <nombre archivo>: cambiar el owner del archivo
+chmod <permisos> <archivo>: Cambiar los permisos  de lectura/escritura del archivo

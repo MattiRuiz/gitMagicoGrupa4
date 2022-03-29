@@ -1,0 +1,38 @@
+git config --global user.name "<nombre>"
+git config --global user.email <mail>
+
+ls: ver los archivos del directorio
+ls -la: muestra tambien los archivos ocultos
+pwd: ver donde estoy parado
+git --version: version instalada de git
+
+git init: inicializa git y crea carpeta
+git status: muestra el estado de los archivos
+git add archivo: agregas el archivo a stage
+git add .: agregas todos los archivos modif al stage
+git rm -cached archivo: sacas el archivo del stage
+git commit -m "descripcion de que hace esta version": commitea el archivo
+git log --oneline: muestra versiones anteriores de los archivos, consigue los codigo de cada commit
+git checkout <codigo>: podemos volver a versiones anteriores
+git checkout master: volvemos a la versión principal
+
+git show: muestra las diferencias entre las versiones y en que rama estoy
+git reset <codigo>: vuelve hasta esa versión y elimina las posteriores (hay --hard y --soft reset)
+
+git branch: alista las ramas creadas
+git branch <nombre>: crea una nueva rama
+git branch -D <nombre de la rama>: borrar una rama
+git checkout <nombre de la rama>: cambiamos de rama
+git merge <rama>: unimos la rama con el master
+git log --oneline master: vemos el log solamente del master, tambien se puede aplicar a cualquier rama
+
+git clone <link> <nombre carpeta>: podemos clonar cualquier repositorio publico de github
+git push: para subir del repositorio local al remoto (a la rama master)
+git push <rama>: envia los cambios a una rama
+git pull: trae los ultimos cambios del repositorio (commits)
+
+.gitignore: es un archivo que sirve para ignorar carpetas o archivos para que NO se suban al git
+touch .gitignore: se crea el archivo git ignore
+
+git remote -v: Muestra a que repositorio estamos apuntando
+git remote add origin <link>: agregar repositorio remoto
